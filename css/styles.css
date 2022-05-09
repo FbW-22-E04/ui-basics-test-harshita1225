@@ -1,0 +1,65 @@
+body{
+    margin:0;
+}
+
+header{
+    background-color: cyan;
+    position:sticky;
+    z-index: 1;
+    top: 0;
+    padding:0.1rem;
+}
+
+.listitem :nth-child(2)
+{
+    color: blue;
+}
+
+.images{
+    display:flex;
+    flex-direction: row;
+    
+}
+.images>div {
+    margin:0.1rem;
+}
+.images>img {
+    margin:0.1rem;
+}
+
+.heading {
+    font-size: 2em;
+    color: rgba(250, 163, 2);
+    text-transform: uppercase;
+}
+
+
+a.footerlinks:visited
+{
+    color: rgba(0, 128, 0, 0.644);
+}
+
+a.footerlinks:hover{
+    color: rgba(255, 0, 0, 0.829);
+    }
+
+.box-model
+{
+    padding: 5px;
+    margin:10%;
+}
+
+#tree{
+    border-radius: 50%;
+}
+
+
+main{
+    border:1px solid white;
+    position: relative;
+}
+.footer{
+    position:absolute;
+    left:0;
+    bottom:0;
+}
